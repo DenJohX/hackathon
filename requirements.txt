@@ -1,4 +1,9 @@
 Django==1.7.1
+Werkzeug==0.9.6
 argparse==1.2.1
+django-debug-toolbar==1.2.2
+django-extensions==1.4.8
 djangorestframework==3.0.0
+six==1.8.0
+sqlparse==0.1.14
 wsgiref==0.1.2
