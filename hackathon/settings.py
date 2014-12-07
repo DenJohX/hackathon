@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'planetofheroes',
 
     # 'allauth.socialaccount.providers.amazon',
     # 'allauth.socialaccount.providers.angellist',
