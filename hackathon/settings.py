@@ -70,6 +70,8 @@ INSTALLED_APPS = (
     # 'allauth.socialaccount.providers.vk',
     # 'allauth.socialaccount.providers.weibo',
     # 'allauth.socialaccount.providers.xing',
+
+    'planetofheroes',
 )
 
 SITE_ID = 1
@@ -100,6 +102,10 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+)
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static/'),
 )
 
 ROOT_URLCONF = 'hackathon.urls'
