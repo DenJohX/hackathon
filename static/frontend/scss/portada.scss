@@ -26,12 +26,16 @@
 
 .instrucciones-wrapper,
 .monsters-wrapper,
-.map-wrapper {
+.map-wrapper,
+.help {
     * {
         text-align: center;
     }
-    h2{
-        text-align: left;
+}
+
+.help {
+    b {
+        font-size: 2rem;
     }
 }
 
