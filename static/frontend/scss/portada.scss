@@ -19,7 +19,6 @@
 
 .monsters-wrapper {
     background: #292929;
-    padding: 6em 0;
 
     * {
         color: white;
@@ -29,4 +28,8 @@
     h2{
         text-align: left;
     }
+}
+
+section.wrap {
+    padding: 6em 0;
 }
