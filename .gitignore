@@ -61,3 +61,6 @@ target/
 # locales
 db.sqlite3
 local_settings.py
+
+# temp
+.sass-cache/
