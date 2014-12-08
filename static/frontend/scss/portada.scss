@@ -3,5 +3,16 @@
 @import "compass/css3";
 
 .top-wrapper {
+    position: relative;
     @include background-image(linear-gradient(#9BC8D6, #F7FAFB));
+
+    &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background: url(../images/bottom.png) repeat-x bottom;
+    };
 }
