@@ -6,20 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World of Heroes</title>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu|Asap' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{% static 'foundation/css/portada.css' %}" />
-    <script src="{% static 'foundation/bower_components/modernizr/modernizr.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'frontend/stylesheets/portada.css' %}" />
+    <script src="{% static 'frontend/bower_components/modernizr/modernizr.js' %}"></script>
   </head>
   <body>
+  <div class="top-wrapper">
+    <div class="row">
+      <div class="large-3 columns">
+        <h1><img src="{% static 'frontend/images/logo.png' %}"/></h1>
+      </div>
+      <div class="large-9 columns">
 
-  <div class="row">
-    <div class="large-12 columns">
+       </div>
+     </div>
 
-
-    <hr/>
+    <div class="row">
+      <div class="large-12 columns">
+        <div id="slider">
+          <img src="{% static "frontend/images/bg.png" %}"/>
+        </div>
+      </div>
     </div>
   </div>
-
-
 
   <div class="row">
     <div class="large-4 columns">
@@ -83,8 +91,8 @@
     </div>
   </footer>
 
-    <script src="{% static 'foundation/bower_components/jquery/dist/jquery.min.js' %}"></script>
-    <script src="{% static 'foundation/bower_components/foundation/js/foundation.min.js' %}"></script>
-    <script src="{% static 'foundation/js/app.js' %}"></script>
+    <script src="{% static 'frontend/bower_components/jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% static 'frontend/bower_components/foundation/js/foundation.min.js' %}"></script>
+    <script src="{% static 'frontend/js/app.js' %}"></script>
   </body>
 </html>
