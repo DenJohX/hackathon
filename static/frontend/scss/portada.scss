@@ -14,7 +14,14 @@
         width: 100%;
         height: 100px;
         background: url(../images/bottom.png) repeat-x bottom;
-    };
+    }
+
+    div.text{
+        padding-top: 200px;
+        height: 720px;
+        text-align: center;
+        background: url(../images/bg.png) no-repeat center bottom;
+    }
 }
 
 .instrucciones-wrapper,
