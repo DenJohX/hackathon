@@ -9081,13 +9081,14 @@ th.hide-for-touch {
 /* line 20, ../scss/portada.scss */
 .monsters-wrapper {
   background: #292929;
+  padding: 6em 0;
 }
-/* line 22, ../scss/portada.scss */
+/* line 24, ../scss/portada.scss */
 .monsters-wrapper * {
   color: white;
   text-align: center;
 }
-/* line 27, ../scss/portada.scss */
+/* line 29, ../scss/portada.scss */
 .monsters-wrapper h2 {
   text-align: left;
 }
