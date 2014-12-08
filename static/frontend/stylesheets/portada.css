@@ -9079,16 +9079,16 @@ th.hide-for-touch {
 }
 
 /* line 20, ../scss/portada.scss */
-.monsters-wrapper {
+.monsters-wrapper, .map-wrapper {
   background: #292929;
 }
 /* line 23, ../scss/portada.scss */
-.monsters-wrapper * {
+.monsters-wrapper *, .map-wrapper * {
   color: white;
   text-align: center;
 }
 /* line 28, ../scss/portada.scss */
-.monsters-wrapper h2 {
+.monsters-wrapper h2, .map-wrapper h2 {
   text-align: left;
 }
 
