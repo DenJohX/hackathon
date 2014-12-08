@@ -12,3 +12,6 @@ class Campania(models.Model):
     inicia = models.DateTimeField(blank=True, null=True)
     recaudado = models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True)
     voluntarios = models.IntegerField(blank=True, null=True)
+
+    class Meta:
+        app_label = 'planetofheroes'

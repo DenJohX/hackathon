@@ -72,7 +72,6 @@ INSTALLED_APPS = (
     # 'allauth.socialaccount.providers.weibo',
     # 'allauth.socialaccount.providers.xing',
 
-    'planetofheroes',
 )
 
 SITE_ID = 1
