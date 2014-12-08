@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{% static 'frontend/stylesheets/portada.css' %}" />
     <link rel="stylesheet" href="{% static 'frontend/stylesheets/style.css' %}" />
     <script src="{% static 'frontend/bower_components/modernizr/modernizr.js' %}"></script>
-{% include "analytics.html" %}
+
   </head>
   <body>
   <div class="top-wrapper">
@@ -34,22 +34,25 @@
   <section class="monsters-wrapper wrap">
     <div class="row">
       <div class="large-6 columns">
-        <h2>but there are evil monsters
+        <h2>But there are evil monsters
         wishing to destroy our world....</h2>
       </div>
     </div>
     <div class="row">
       <div class="large-4 columns">
         <img src="{% static "frontend/images/monster1.png" %}"/>
-        <h3>Poverty</h3>
+        <h3>Povertler</h3>
+        <p>All it leaves is hunger and missery.</p>
       </div>
       <div class="large-4 columns">
-        <img src="{% static "frontend/images/monster1.png" %}"/>
-        <h3>Poverty</h3>
+        <img src="{% static "frontend/images/monster2.png" %}"/>
+        <h3>Diseaster</h3>
+        <p>Spreads diseases.</p>
       </div>
       <div class="large-4 columns">
-        <img src="{% static "frontend/images/monster1.png" %}"/>
-        <h3>Poverty</h3>
+        <img src="{% static "frontend/images/monster3.png" %}"/>
+        <h3>Eduradicator</h3>
+        <p>Limits the access to education.</p>
       </div>
     </div>
   </section>
@@ -62,7 +65,7 @@
         </h2>
       </div>
       <div class="large-6 columns">
-        <img src="http://placehold.it/400x300&text=[monstruo]"/>
+        <img src="{% static "frontend/images/sh.png" %}"/>
       </div>
     </div>
   </section>
@@ -86,26 +89,27 @@
   <section class="instrucciones-wrapper wrap">
     <div class="row">
       <div class="large-6 columns">
-        <h2>Ayuda ahora, es fácil!</h2>
+        <h2>Help Now! Its Easy</h2>
       </div>
     </div>
     <div class="row">
       <div class="large-4 columns">
-        <img src="http://placehold.it/400x300&text=[img]"/>
-        <h4>1. Encuentra un problema que desees solucionar</h4>
-        <p>Observa en tu comunidad, o revisa nuestro <a href="#" class="mapa">mapa</a> </p>
+        <img src="{% static "frontend/images/1.png" %}"/>
+        <h4>1. Put your SuperHero pants</h4>
+        <p>Search for issues affecting your community, or look here.</a> </p>
       </div>
 
       <div class="large-4 columns">
-        <img src="http://placehold.it/400x300&text=[img]"/>
-        <h4>2. Crea una campaña para reunir capital y atraer voluntarios</h4>
-        <p>skfdl</p>
+        <img src="{% static "frontend/images/2.png" %}"/>
+        <h4>2. Gather your comrades</h4>
+
+        <p>Create a campaign to raise capital and attract volunteers</p>
       </div>
 
       <div class="large-4 columns">
-        <img src="http://placehold.it/400x300&text=[img]"/>
-        <h4>3. Conviértete en SuperHéroe</h4>
-        <p>Vence a los Monstruos!</p>
+        <img src="{% static "frontend/images/3.png" %}"/>
+        <h4>3. Become a SuperHero!</h4>
+        <p>Lets fight the monsters, together!</p>
       </div>
 
     </div>

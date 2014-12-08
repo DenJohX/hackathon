@@ -17,17 +17,31 @@
     };
 }
 
+.instrucciones-wrapper,
+.monsters-wrapper,
+.map-wrapper {
+    * {
+        text-align: center;
+    }
+    h2{
+        text-align: left;
+    }
+}
+
+.defeat {
+
+    h2 {
+        font-size: 5.5rem;
+    }
+}
+
 .monsters-wrapper, .map-wrapper {
     background: #292929;
 
     * {
         color: white;
-        text-align: center;
     }
 
-    h2{
-        text-align: left;
-    }
 }
 
 section.wrap {
