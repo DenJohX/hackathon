@@ -16,3 +16,15 @@
         background: url(../images/bottom.png) repeat-x bottom;
     };
 }
+
+.monsters-wrapper {
+    background: #292929;
+    * {
+        color: white;
+        text-align: center;
+    }
+
+    h2{
+        text-align: left;
+    }
+}

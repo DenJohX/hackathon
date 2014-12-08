@@ -9077,3 +9077,17 @@ th.hide-for-touch {
   height: 100px;
   background: url(../images/bottom.png) repeat-x bottom;
 }
+
+/* line 20, ../scss/portada.scss */
+.monsters-wrapper {
+  background: #292929;
+}
+/* line 22, ../scss/portada.scss */
+.monsters-wrapper * {
+  color: white;
+  text-align: center;
+}
+/* line 27, ../scss/portada.scss */
+.monsters-wrapper h2 {
+  text-align: left;
+}
